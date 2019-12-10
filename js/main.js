@@ -63,15 +63,5 @@ $(document).ready(function(){
             $(".bellows__header").not(this).parent(".bellows__item").removeClass("bellows--is-open");
         });      
     })();
-    //加载文章post.js
-    (function(){
-        var postStr = ""
-        for (var i = 0; i < postArr.length; i++) {
-            postStr += "<div onclick='getPost("+(i+1)+")'><h4>"
-                +postArr[i].title+"</h4> <p>"
-            +postArr[i].content[0]+"</p></div>"
-        }
-        $("#postItems").html(postStr)
-    })();
 
 });
