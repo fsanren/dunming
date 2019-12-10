@@ -57,7 +57,6 @@ header .header-container .nav-box .nav-mid .navbar-nav {
 header .header-container .nav-box .nav-mid .navbar-nav li {
   float: left;
   height: 70px;
-  margin: 0 40px 0 0;
   text-align: center;
   list-style: none;
 }

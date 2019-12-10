@@ -36,37 +36,76 @@
         <li><a href="culture.html">公司文化</a></li>
         <li><a href="job.html">求职招聘</a></li>
         <li><a href="contactus.html">联系我们</a></li>
-     
+      </ul>
     </div>
     <div class="main-wrapper main-wrapper-5">
     <!-- header顶部导航 -->
-    <header>
-      <div class="header-container">
-        <div class="nav-box">
-          <!-- logo -->
-          <div class="nav-left">
-            <a id="logo_top" href="index.html"></a>
-          </div>
-          <!-- memu选项 -->
-          <div class="nav-mid">
-            <div id="lang">
-              <a href="#"></a>
+      <header>
+        <div class="header-container">
+          <div class="nav-box">
+            <!-- logo -->
+            <div class="nav-left">
+              <a id="logo_top" href="index.html"></a>
             </div>
-            <ul class="navbar-nav">
-              <li><a class="" href="index.html">首页</a></li>
-              <li><a class="" href="aboutus.html">关于我们</a></li>
-              <li><a class="active" href="product.html">业务领域</a></li>
-              <li><a class="" href="culture.html">专业研究</a></li>
-              <li><a class="" href="contactus.html">联系我们</a></li>
-            </ul>            
-          </div>
-          <!-- 响应式菜单 -->
-          <div class="nav-mobile-menu">
+            <!-- memu选项 -->
+            <div class="nav-mid">
+              <div id="lang">
+                <a href="#"></a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="m"><a class="active" href="index.html">首页</a>
+                </li>
+                <li class="m"><a class="" href="aboutus.html">关于我们</a>
+                  <div class="sub" style="display:none">
+                    <dl>
+                      <dd><a href="aboutus.html">律所简介</a></dd>
+                      <dd><a href="team.html">团队介绍</a></dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="m"><a class="" href="product.html">业务领域</a>
+                  <div class="sub" style="display:none">
+                    <dl>
+                      <dd><a href="product-1.html">民事领域</a></dd>
+                      <dd><a href="product-2.html">刑事领域</a></dd>
+                      <dd><a href="product-3.html">公司管理</a></dd>
+                      <dd><a href="product-4.html">医疗纠纷</a></dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="m"><a class="" href="culture.html">专业研究</a>
+                  <div class="sub" style="display:none">
+                    <dl>
+                      <dd><a href="culture.html">往期文章</a></dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="m"><a class="" href="contactus.html">联系我们</a>
+                  <div class="sub" style="display:none">
+                    <dl>
+                      <dd><a href="contactus.html">联系我们</a></dd>
+                      <dd><a href="job.html">求职招聘</a></dd>
+                    </dl>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <script type="text/javascript"> jQuery(".nav").slide({
+                type: "menu",
+                titCell: ".m",
+                targetCell: ".sub",
+                effect: "slideDown",
+                delayTime: 300,
+                triggerTime: 100,
+                returnDefault: true
+            });</script>
+            <!-- 响应式菜单 -->
+            <div class="nav-mobile-menu">
               <span class="sidebar_trigger"></span>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
     <!-- advert组件 -->
     <div class="advert">
        <h1></h1>
