@@ -1,0 +1,733 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="yonkee测试description。 " />
+    <meta name="keywords" content="yonkee,律所,test" />
+    <meta name="author" content="SAFSFoundDev_DengjuDeng"> 
+    <title>广东敦明律师事务所律师事务所-首页</title>
+    <!-- 框架 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- 样式清理 -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- 通用页面样式 -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- 首页样式 -->
+    <link href="css/index.css" rel="stylesheet">
+    
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/anim.css" rel="stylesheet"/>
+    <link href="css/slide.css" rel="stylesheet"/>
+    <link href="css/css.css" rel="stylesheet"/>
+  
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/jquery.superslide.2.1.1.js">//pc导航</script>
+    <script src="js/jquery.caroufredsel.js">//轮显</script>
+    <script src="js/jquery.touchswipe.min.js">//轮显</script>
+    <script src="js/public.js">//导航</script>
+    <script src="js/anim.js">//动画</script>
+    <!-- HTML5兼容性处理 -->
+    <!-- Respond.js响应式设计>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Favicons网站图标 -->
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="bookmark" href="img/favicon.ico" type="image/x-icon"/>
+  </head>
+  <body>
+    <!-- 移动端导航 -->
+    <div class="mask"></div>
+    <div class="sidebar">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="aboutus.html">关于我们</a></li>
+        <li><a href="team.html">专业团队</a></li>
+        <li><a href="culture.html">公司文化</a></li>
+        <li><a href="job.html">求职招聘</a></li>
+        <li><a href="contactus.html">联系我们</a></li>
+      </ul>
+    </div>
+    <!-- header顶部导航 -->
+    <header>
+      <div class="header-container">
+        <div class="nav-box">
+          <!-- logo -->
+          <div class="nav-left">
+            <a id="logo_top" href="index.html"></a>
+          </div>
+          <!-- memu选项 -->
+          <div class="nav-mid">
+            <div id="lang">
+              <a href="#"></a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="m"><a class="active" href="index.html">首页</a>       
+              </li>
+              <li class="m"><a class="" href="aboutus.html">关于我们</a>
+                 <div class="sub" style="display:none">
+                    <dl>
+                        <dd><a href="aboutus.html">律所简介</a></dd>
+                        <dd><a href="team.html">团队介绍</a></dd>                       
+                    </dl>
+                 </div>
+              </li>
+              <li class="m"><a class="" href="product.html">业务领域</a></li>
+              <li class="m"><a class="" href="culture.html">专业研究</a></li>
+              <li class="m"><a class="" href="contactus.html">联系我们</a></li>
+            </ul>            
+          </div>
+          <script type="text/javascript"> jQuery(".nav").slide({
+                type: "menu",
+                titCell: ".m",
+                targetCell: ".sub",
+                effect: "slideDown",
+                delayTime: 300,
+                triggerTime: 100,
+                returnDefault: true
+            });</script>
+          <!-- 响应式菜单 -->
+          <div class="nav-mobile-menu">
+              <span class="sidebar_trigger"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+
+    <!-- banner轮播组件 -->
+    
+<div class="touch_bg">&nbsp;</div>
+<!-- E touch-top-wrapper -->
+<div class="blank_h">&nbsp;</div>
+<!--轮显begin-->
+<div id="a1portalSkin_ctr211899211899_mainArea" class="module-content"><!-- Start_Module_211899 --><!-- S slideshow -->
+    <div class="slideshow carousel clearfix" style="height:750px; overflow:hidden;">
+        <div id="carousel-211899">
+            <div class="carousel-item">
+                    <div class="carousel-img"><a href="javascript:void(0);" target=""><img src="picture/595f3baf175f1.jpg" height="750"  alt=""/></a></div>
+                </div><div class="carousel-item">
+                    <div class="carousel-img"><a href="javascript:void(0);" target=""><img src="picture/595f3b64e7a32.jpg" height="750"  alt=""/></a></div>
+                </div><div class="carousel-item">
+                    <div class="carousel-img"><a href="javascript:void(0);" target=""><img src="picture/5932336032842.jpg" height="750"  alt=""/></a></div>
+                </div>
+        </div>
+
+        <div class="carousel-btn carousel-btn-fixed" id="carousel-page-211899"></div>
+        <div class="carousel-page">
+            <div class="carousel-prev" id="carousel-prev-211899"  ></div>
+            <div class="carousel-next" id="carousel-next-211899"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(window).bind("load resize", function () {
+
+            $("#carousel-211899").carouFredSel({
+
+                width: '100%',
+
+                items: {visible: 1},
+
+                auto: {pauseOnHover: true, timeoutDuration: 5000},
+
+                swipe: {onTouch: true, onMouse: true},
+
+                pagination: "#carousel-page-211899",
+
+                prev: {button: "#carousel-prev-211899"},
+
+                next: {button: "#carousel-next-211899"},
+
+                scroll: {fx: "crossfade"}//注释的话就是滚动的
+
+            });
+
+        });
+
+    </script>
+    <!-- E slideshow --><!-- End_Module_211899 --></div>
+<!--轮显end-->
+<!--flash start-->
+<div class="flash_div">
+    <div class="flash">
+        <ul class="ul_flash">
+            <li><a href="javascript:void(0);" title=""><img src="picture/595f56bb7f535.jpg" alt=""></a></li><li><a href="javascript:void(0);" title=""><img src="picture/595f55a7820e7.jpg" alt=""></a></li><li><a href="javascript:void(0);" title=""><img src="picture/595f5597df847.jpg" alt=""></a></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="js/idangerous.swiper-2.0.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<!--flash end-->
+<!--产品中心begin-->
+<div class="i_pro_bg2">
+    <div class="i_pro_t  anim anim-1">产品与服务</div>
+    <div id="owl-demo2" class="owl-carousel anim anim-2">
+        <div class="item">
+                <dd class="not-animated"><a href="pro-con.html">
+                    <div class="imgs"><img src="picture/594a2688b34a7.jpg" alt="">
+
+                        <p>&nbsp;</p></div>
+                    <h2>脉冲气保焊PT-Master-500DPP</h2></a>
+                </dd>
+            </div><div class="item">
+                <dd class="not-animated"><a href="pro-con.html">
+                    <div class="imgs"><img src="picture/594a2843e4e1c.jpg" alt="">
+
+                        <p>&nbsp;</p></div>
+                    <h2>多功能脉冲气保焊PT-Master-350PT/500PT</h2></a>
+                </dd>
+            </div><div class="item">
+                <dd class="not-animated"><a href="pro-con.html">
+                    <div class="imgs"><img src="picture/594a298fcdfe6.jpg" alt="">
+
+                        <p>&nbsp;</p></div>
+                    <h2>多功能脉冲气保焊PT Master 315DP</h2></a>
+                </dd>
+            </div><div class="item">
+                <dd class="not-animated"><a href="pro-con.html">
+                    <div class="imgs"><img src="picture/594a15e2cdfe6.jpg" alt="">
+
+                        <p>&nbsp;</p></div>
+                    <h2>TIG200P MOS Digital</h2></a>
+                </dd>
+            </div><div class="item">
+                <dd class="not-animated"><a href="pro-con.html">
+                    <div class="imgs"><img src="picture/594a0d893567e.jpg" alt="">
+
+                        <p>&nbsp;</p></div>
+                    <h2>逆变等离子切割机CUT-50</h2></a>
+                </dd>
+            </div><div class="item">
+                <dd class="not-animated"><a href="pro-con.html">
+                    <div class="imgs"><img src="picture/594a10c51312d.jpg" alt="">
+
+                        <p>&nbsp;</p></div>
+                    <h2>逆变等离子切割机CUT-100</h2></a>
+                </dd>
+            </div><div class="item">
+                <dd class="not-animated"><a href="pro-con.html">
+                    <div class="imgs"><img src="picture/594a2c6e66ff3.jpg" alt="">
+
+                        <p>&nbsp;</p></div>
+                    <h2>全数字化多功能气保焊系列MIG200</h2></a>
+                </dd>
+            </div><div class="item">
+                <dd class="not-animated"><a href="pro-con.html">
+                    <div class="imgs"><img src="picture/595f2e163ea9f.jpg" alt="">
+
+                        <p>&nbsp;</p></div>
+                    <h2>MIG-100/120 Digital</h2></a>
+                </dd>
+            </div>    </div>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $("#owl-demo2").owlCarousel({
+            items: 3,
+            lazyLoad: true,
+            autoPlay: true,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [979, 3],
+            itemsTablet: [768, 2],
+            itemsTabletSmall: false,
+            itemsMobile: [479, 2],
+            navigation: true
+        });
+    </script>
+</div>
+<!--产品中心end-->
+<!--工程案例begin-->
+<div class="i_pro_t anim anim-1" style="bottom:2%;">工程案例</div>
+<div id="owl-demo" class="owl-carousel anim anim-2">
+    <div class="item">
+            <div class="bg-list-img">
+                <a href="javascript:void(0)"><img class="lazyOwl" data-src="picture/59670cf4c272a.jpg" alt=""></a>
+            </div>
+            <div class="bg-list-tit"><h4>桥梁建筑</h4></div>
+            <label class="bg-list-more"></label>
+
+            <div class="i_pro_bg">
+                <a href="javascript:void(0)">
+                    <div class="bg-list-hs" style=" background:url(images/596747f854a8c.png) center top no-repeat;">
+                        <div class="bg-list-sub-hs">
+                            <p>现代桥梁的建造，涉及到钢材等材料的应用就离不开焊接，焊机广泛应用于各种桥梁建造中。</p>
+                        </div>
+                    </div>
+                    <div class="bg-list-yew">
+                        <h5>桥梁建筑</h5>
+                    </div>
+                </a>
+            </div>
+        </div><div class="item">
+            <div class="bg-list-img">
+                <a href="javascript:void(0)"><img class="lazyOwl" data-src="picture/59671086a6543.jpg" alt=""></a>
+            </div>
+            <div class="bg-list-tit"><h4>航天航海</h4></div>
+            <label class="bg-list-more"></label>
+
+            <div class="i_pro_bg">
+                <a href="javascript:void(0)">
+                    <div class="bg-list-hs" style=" background:url(images/5967480a215f3.png) center top no-repeat;">
+                        <div class="bg-list-sub-hs">
+                            <p>船舶、航天飞机以及其他对焊接工艺要求较高的行业应用领域中，焊机扮演了不可缺少的角色。</p>
+                        </div>
+                    </div>
+                    <div class="bg-list-yew">
+                        <h5>航天航海</h5>
+                    </div>
+                </a>
+            </div>
+        </div><div class="item">
+            <div class="bg-list-img">
+                <a href="javascript:void(0)"><img class="lazyOwl" data-src="picture/596714a6c9664.jpg" alt=""></a>
+            </div>
+            <div class="bg-list-tit"><h4>门窗加工</h4></div>
+            <label class="bg-list-more"></label>
+
+            <div class="i_pro_bg">
+                <a href="javascript:void(0)">
+                    <div class="bg-list-hs" style=" background:url(images/59674831c07c9.png) center top no-repeat;">
+                        <div class="bg-list-sub-hs">
+                            <p>门窗加工</p>
+                        </div>
+                    </div>
+                    <div class="bg-list-yew">
+                        <h5>门窗加工</h5>
+                    </div>
+                </a>
+            </div>
+        </div><div class="item">
+            <div class="bg-list-img">
+                <a href="javascript:void(0)"><img class="lazyOwl" data-src="picture/596715343fb0e.jpg" alt=""></a>
+            </div>
+            <div class="bg-list-tit"><h4>汽车制造</h4></div>
+            <label class="bg-list-more"></label>
+
+            <div class="i_pro_bg">
+                <a href="javascript:void(0)">
+                    <div class="bg-list-hs" style=" background:url(images/5967483f13c1b.png) center top no-repeat;">
+                        <div class="bg-list-sub-hs">
+                            <p>广泛应用于汽车制造、汽车维修等领域</p>
+                        </div>
+                    </div>
+                    <div class="bg-list-yew">
+                        <h5>汽车制造</h5>
+                    </div>
+                </a>
+            </div>
+        </div><div class="item">
+            <div class="bg-list-img">
+                <a href="javascript:void(0)"><img class="lazyOwl" data-src="picture/59326712c6242.jpg" alt=""></a>
+            </div>
+            <div class="bg-list-tit"><h4>高速焊接</h4></div>
+            <label class="bg-list-more"></label>
+
+            <div class="i_pro_bg">
+                <a href="javascript:void(0)">
+                    <div class="bg-list-hs" style=" background:url(images/59674853c7a54.png) center top no-repeat;">
+                        <div class="bg-list-sub-hs">
+                            <p>该工艺在脉冲过渡的基础上压缩弧长，使熔滴过渡时产生短路，从而形成一种高能量高密度的浓缩电弧。与传统气保焊相比，在熔深稳定的同时增加了焊接速度。速度提升30% ，飞溅降低40%，焊接速度提高，用户生产效率和效益得到明显提升；飞溅大幅度降低，提高焊材熔敷率，节省焊材成本；减少用户打磨时间，提高焊接效率。</p>
+                        </div>
+                    </div>
+                    <div class="bg-list-yew">
+                        <h5>高速焊接</h5>
+                    </div>
+                </a>
+            </div>
+        </div><div class="item">
+            <div class="bg-list-img">
+                <a href="javascript:void(0)"><img class="lazyOwl" data-src="picture/5932670ac25e0.jpg" alt=""></a>
+            </div>
+            <div class="bg-list-tit"><h4>高速立向上焊</h4></div>
+            <label class="bg-list-more"></label>
+
+            <div class="i_pro_bg">
+                <a href="javascript:void(0)">
+                    <div class="bg-list-hs" style=" background:url(images/59674ac4a4246.png) center top no-repeat;">
+                        <div class="bg-list-sub-hs">
+                            <p>采用脉冲加短路过渡，脉冲的高能量是母材熔化，同时在精确的电弧控制技术下，熔滴无飞溅的过渡到短路阶段，短路过渡阶段实现熔滴的过渡，实现无摆动的焊接操作。与常规的立向上焊相比，增加了焊接速度，同时飞溅大幅度降低。焊接速度提升50%，飞溅量降低40%，
+焊接速度提高，用户生产效率和效益得到明显提升；飞溅大幅度降低，提高焊材熔敷率，节省焊材成本；减少用户打磨时间，提高焊接效率。
+</p>
+                        </div>
+                    </div>
+                    <div class="bg-list-yew">
+                        <h5>高速立向上焊</h5>
+                    </div>
+                </a>
+            </div>
+        </div><div class="item">
+            <div class="bg-list-img">
+                <a href="javascript:void(0)"><img class="lazyOwl" data-src="picture/593266315465a.jpg" alt=""></a>
+            </div>
+            <div class="bg-list-tit"><h4>高速脉冲焊</h4></div>
+            <label class="bg-list-more"></label>
+
+            <div class="i_pro_bg">
+                <a href="javascript:void(0)">
+                    <div class="bg-list-hs" style=" background:url(images/59674ad6cf678.png) center top no-repeat;">
+                        <div class="bg-list-sub-hs">
+                            <p>该工艺利用精准的波形控制技术，更加集中收缩电弧，实现熔滴由射滴过渡向射流过渡。与普通脉冲焊相比，在熔深稳定的同时增加了焊接速度。速度提升50%以上，焊缝熔深大，高速脉冲焊无飞溅，提高熔敷率，节省用户焊材成本；减少用户打磨时间，提高焊接效率。</p>
+                        </div>
+                    </div>
+                    <div class="bg-list-yew">
+                        <h5>高速脉冲焊</h5>
+                    </div>
+                </a>
+            </div>
+        </div><div class="item">
+            <div class="bg-list-img">
+                <a href="javascript:void(0)"><img class="lazyOwl" data-src="picture/59326640ef281.jpg" alt=""></a>
+            </div>
+            <div class="bg-list-tit"><h4>超级双脉冲焊</h4></div>
+            <label class="bg-list-more"></label>
+
+            <div class="i_pro_bg">
+                <a href="javascript:void(0)">
+                    <div class="bg-list-hs" style=" background:url(images/59674aa856e5e.png) center top no-repeat;">
+                        <div class="bg-list-sub-hs">
+                            <p>该工艺，高频脉冲阶段熔化金属，形成脉冲熔滴过渡，低频脉冲搅拌熔池，并且利用精准的波形控制技术，更加集中收缩电弧，实现熔滴由射滴过渡向射流过渡。与传统双脉冲焊相比，在熔深稳定的同时增加了焊接速度。无飞溅，铝薄板焊接厚度可低至0.8mm，焊缝质量高，缺陷少。速度提升30%，热输入量更低。超级双脉冲焊接方式降低了每个周期的平均电流，减少了母材的热输入，可以获得熔宽均匀、美观的鱼鳞纹焊缝，媲美TIG焊。</p>
+                        </div>
+                    </div>
+                    <div class="bg-list-yew">
+                        <h5>超级双脉冲焊</h5>
+                    </div>
+                </a>
+            </div>
+        </div></div>
+<script>
+    $("#owl-demo").owlCarousel({
+        items: 5,
+        lazyLoad: true,
+        itemsDesktop: [1600, 4],
+        itemsDesktopSmall: [1279, 3],
+        itemsTablet: [768, 2],
+        itemsMobile: [479, 2],
+        autoPlay: true,
+        navigation: true
+    });
+</script>
+<!--工程案例end-->
+<!--关于我们begin-->
+<div class="i_about">
+    <div class="i_about_t anim anim-1">关于我们</div>
+    <div class="i_about_con">
+        <div class="imgs anim anim-2">
+            <img src="picture/i_about_img1.png"/>
+        </div>
+        <div class="i_about_r anim anim-3">
+            <div class="i_about_txt">
+<p style="text-indent:37px">电气有限公司成立于2015年10月，注册资本680万元，是一家专注于逆变焊割设备、焊配、焊接自动化系列产品的研发、生产、销售及服务于一体的高新技术企业。公司管理团队具有深厚的专业技术背景，拥有十年行业专业知识，始终以“掌握核心科技，引领行业智能”为创新理念，以“中国品牌，世界品质”为企业使命，打造焊割行业高端产品，推动相关应用领域的发展，不断开发具有前瞻性的产品与技术。作为知名的焊接与切割设备制造商，是国内少数的具有全系列产品生产能力的公司，主要产品包括：数字化二氧化碳保护焊机、数字化手工弧焊机、全功能脉冲氩弧焊机、数字化埋弧焊机、等离子切割机等全数字化焊割设备……</p>
+            </div>
+            <a href="1.html" class="i_about_more">查看更多</a>
+        </div>
+
+        <div class="c_l"></div>
+    </div>
+</div>
+<!--关于我们end-->
+<!--资讯中心begin-->
+<div class="i_news_bg">
+    <div class="i_about_t anim anim-1">资讯中心</div>
+    <div class="i_news_a anim anim-2">
+
+        <a href="javascript:void(0)" j class="osel">新闻动态</a>
+
+        <a href="javascript:void(0)">焊接资讯</a>
+
+    </div>
+    <div class="i_news_con anim anim-3">
+        <div class="i_news_div" style="display:block;">
+            <!--公司资讯begin-->
+            <div id="owl-demo3" class="owl-carousel">
+                                <div class="item">
+                    <dd class="not-animated">
+                        <div class="i_news_l">
+                            <ul>
+                                <li>
+                                        <a href="news-con.html">
+                                            <div class="four_date"><b>06</b>2017-03</div>
+                                            <div class="four_txt">
+                                                <h2>2017北京·上海埃森展圆满结束</h2>
+                                                <p>
+                                                    6月27日，2017北京·埃森焊接与切割展览会在上海新国际博览中心隆重开幕，深圳电气有限公司盛装出席（展位号：N4号馆470），零距离展示由中外合资，共同研发的新型数字化系列产品、多功能高速脉冲气保焊机和多功能双脉冲气保焊机、DSP多功能数字化焊机和MIG数字化LCD屏焊机及最新的焊接技术，为焊接领域提供领先的解决方案。                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+
+
+                                    <li>
+                                        <a href="news-con.html">
+                                            <div class="four_date"><b>06</b>2017-03</div>
+                                            <div class="four_txt">
+                                                <h2>焊割自动化解决方案</h2>
+                                                <p>
+                                                    实现焊接系统的集中控制，包括集中设置、集中编程、集中操作；可在焊接过程中操作机器人，对焊接速度进行调整；对焊接过程进行编程操作，焊缝可分段，不同焊缝段设置不同焊接参数等。不同焊缝段设置不同焊接参不同焊缝段设置不同焊接参不同焊缝段设置不同焊接参                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+
+
+                                    <li>
+                                        <a href="news-con.html">
+                                            <div class="four_date"><b>06</b>2017-02</div>
+                                            <div class="four_txt">
+                                                <h2>全新数字化产品强势下线</h2>
+                                                <p>
+                                                    2016.12.27日，深圳电气有限公司全新数字化产品成功下线，上午10点18分，全体员工举办了热烈的产品下线仪式，代表着自有品牌高端数字化产品即将面世。                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+
+
+                                                                        </ul>
+                                    </div>
+
+                                    <a href="news-con.html">
+                                            <div class="imgs"><img src="picture/5965e94232a0d.jpg" alt="">
+
+                                                <h2><em>2017-06-02</em>全新数字化产品强势下线</h2></div>
+                                        </a>                                </dd>
+                            </div>
+
+            </div>
+            <script>
+                $("#owl-demo3").owlCarousel({
+                    items: 1,
+                    lazyLoad: true,
+                    itemsDesktop: [1600, 1],
+                    itemsDesktopSmall: [1279, 1],
+                    itemsTablet: [768, 1],
+                    itemsMobile: [479, 1],
+                    autoPlay: true,
+                    navigation: true
+                });
+            </script>
+            <!--公司资讯end-->
+        </div>
+        <div class="i_news_div">
+            <!--行业资讯begin-->
+            <div id="owl-demo4" class="owl-carousel">
+                                <div class="item">
+                    <dd class="not-animated">
+                        <div class="i_news_l">
+                            <ul>
+                                <li>
+                                        <a href="news-con.html">
+                                            <div class="four_date"><b>06</b>2017-03</div>
+                                            <div class="four_txt">
+                                                <h2>高速电弧改写工业革命</h2>
+                                                <p>
+                                                    中国智造，开创高速焊接新时代！
+PT SPEED MIG-500
+多功能高速脉冲气保焊                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+
+
+                                    <li>
+                                        <a href="news-con.html">
+                                            <div class="four_date"><b>06</b>2017-03</div>
+                                            <div class="four_txt">
+                                                <h2>焊割自动化解决方案</h2>
+                                                <p>
+                                                    实现焊接系统的集中控制，包括集中设置、集中编程、集中操作；可在焊接过程中操作机器人，对焊接速度进行调整；对焊接过程进行编程操作，焊缝可分段，不同焊缝段设置不同焊接参数等。不同焊缝段设置不同焊接参不同焊缝段设置不同焊接参不同焊缝段设置不同焊接参                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+
+
+                                    <li>
+                                        <a href="news-con.html">
+                                            <div class="four_date"><b>06</b>2017-03</div>
+                                            <div class="four_txt">
+                                                <h2>焊割自动化解决方案</h2>
+                                                <p>
+                                                    实现焊接系统的集中控制，包括集中设置、集中编程、集中操作；可在焊接过程中操作机器人，对焊接速度进行调整；对焊接过程进行编程操作，焊缝可分段，不同焊缝段设置不同焊接参数等。不同焊缝段设置不同焊接参不同焊缝段设置不同焊接参不同焊缝段设置不同焊接参                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+
+
+                                    </ul>
+                        </div>
+                        <a href="news-con.html">
+                            <div class="imgs"><img src="picture/5932515bc4075.jpg" alt="">
+
+                                <h2><em>2017-06-03</em>焊割自动化解决方案</h2></div>
+                        </a>
+                    </dd>
+                </div>
+                <div class="item">
+                    <dd class="not-animated">
+                        <div class="i_news_l">
+                            <ul><li>
+                                        <a href="news-con.html">
+                                            <div class="four_date"><b>06</b>2017-03</div>
+                                            <div class="four_txt">
+                                                <h2>焊割自动化解决方案</h2>
+                                                <p>
+                                                    实现焊接系统的集中控制，包括集中设置、集中编程、集中操作；可在焊接过程中操作机器人，对焊接速度进行调整；对焊接过程进行编程操作，焊缝可分段，不同焊缝段设置不同焊接参数等。不同焊缝段设置不同焊接参不同焊缝段设置不同焊接参不同焊缝段设置不同焊接参                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+
+
+                                                                </ul>
+                        </div>
+
+                        <a href="news-con.html">
+                                    <div class="imgs"><img src="picture/5934f42d3b2c2.jpg" alt="">
+
+                                        <h2><em>2017-06-03</em>焊割自动化解决方案</h2></div>
+                                </a>                    </dd>
+                </div>
+
+
+            </div>
+            <script>
+                $("#owl-demo4").owlCarousel({
+                    items: 1,
+                    lazyLoad: true,
+                    itemsDesktop: [1600, 1],
+                    itemsDesktopSmall: [1279, 1],
+                    itemsTablet: [768, 1],
+                    itemsMobile: [479, 1],
+                    autoPlay: true,
+                    navigation: true
+                });
+            </script>
+            <!--行业资讯end-->
+        </div>
+    </div>
+    <script language="javascript">
+        $('.i_news_a a').hover(function () {
+            var linum = $(this).index();
+            $(this).addClass('osel').siblings().removeClass('osel');
+            $('.i_news_con .i_news_div').eq(linum).show().siblings('.i_news_div').hide()
+        })
+    </script>
+
+</div>
+<!--资讯中心end-->
+<!--服务中心begin-->
+<div class="i_service_bg">
+    <div class="i_about_t anim anim-1">技术中心</div>
+    <em class="anim anim-2">我们珍惜您每一次在线咨询，用专业的态度，贴心的服务，为您分析策划</em>
+
+    <div class="i_youshi anim anim-3">
+        <ul>
+            <li class="fadeInUp animated" data-animate="fadeInUp" data-delay="100"><a href="javascript:void(0)"><img src="picture/5934cd00dbe6c.png">研发设备</a></li><li class="fadeInUp animated" data-animate="fadeInUp" data-delay="200"><a href="javascript:void(0)"><img src="picture/5934cce85f4aa.png">研发团队</a></li><li class="fadeInUp animated" data-animate="fadeInUp" data-delay="300"><a href="javascript:void(0)"><img src="picture/5934ccd4a8bf3.png">生产车间</a></li><li class="fadeInUp animated" data-animate="fadeInUp" data-delay="400"><a href="javascript:void(0)"><img src="picture/5934ccb734db5.png">售后服务</a></li>        </ul>
+    </div>
+    <a href="#" class="i_service_more anim anim-4">在线客服</a>
+</div>
+<!--服务中心end-->
+<!--尾部begin-->
+<div class="foot_bg">
+    <div class="foot_con">
+        <div class="foot_con_l">
+            <img src="picture/logo2.png" class="foot_con_logo"/>
+
+            <div class="foot_con_a">
+                <a href="#">首页</a>&nbsp;｜&nbsp;
+                <a href="#">关于我们</a>&nbsp;｜&nbsp;<a href="#">产品与服务</a>&nbsp;｜&nbsp;<a href="#">资讯中心</a>&nbsp;｜&nbsp;<a href="#">技术服务</a>&nbsp;｜&nbsp;<a href="#">工程案例</a>&nbsp;｜&nbsp;<a href="#">联系我们</a>            </div>
+        </div>
+        <div class="foot_con_r">
+            <img src="picture/weixin.jpg"/>
+            <ul>
+                <li><a href="tel:400-xxxx-1238" class="tel">400-xxx-1238</a></li>
+                <li><a href="mailto:sales@xxxxx.com" class="email">sales@xxxxx.com</a></li>
+                <li>电气有限公司 All rights reserved</li>
+            </ul>
+        </div>
+        <div class="c_l"></div>
+    </div>
+    <div class="foot_bg2">
+        <div class="foot_con2">
+            更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a>
+            <div class="footer_fx_r">
+                <ul>
+                    <li class="foot_weixin"><a href="javascript:void(0)"><div class="ewm"><img src="picture/weixin.jpg"></div></a></li>
+                    <li class="foot_qq"><a href="#">&nbsp;</a></li>
+                    <li class="foot_weibo"><a href="javascript:void(0)" class="jiathis_button_tqq">&nbsp;</a></li>
+                    <li class="foot_sinna"><a href="javascript:void(0)" class="jiathis_button_tsina">&nbsp;</a></li>
+
+                </ul>
+            </div>
+            <script type="text/javascript" src="js/jia.js" charset="utf-8"></script>
+            <style>
+                .jiathis_style .jtico_tqq {
+                    background-position: -80px -64px;
+                }
+
+                .jiathis_style .jtico_tsina {
+                    background-position: -80px -64px;
+                }
+            </style>
+
+            <span class="r">分享到：</span>
+        </div>
+    </div>
+</div>
+<a href="javascript:void(0)" class="gotop" onClick="goTop()"></a>
+<!--尾部end-->
+<script language="javascript" src="js/foot.js"></script>
+<!--弹窗begin-->
+<div class="case_bgs">&nbsp;</div>
+<div class="case_tc">
+    <div class="case_divs">
+        <img src="picture/close.png" class="closed"/>
+        <img src="picture/i_pro_img1.jpg" alt="" id="tc_big"/>
+
+        <div class="case_txt">
+            <h2>桥梁工程领域2</h2>
+
+            <p>
+                与比亚迪公司成功完成新能源汽车制造生产所需焊割设备的销售合同，提供TIG-315AC/DC、 Master-500DP焊接设备。<br/>
+                与比亚迪公司成功完成新能源汽车制造生产所需焊割设备的销售合同，提供TIG-315AC/DC、 Master-500DP焊接设备。
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(".closed").click(function () {
+        $(".case_tc").animate({height: "0", top: "270px"});
+        $(".case_bgs").fadeOut();
+        $(".case_tc").fadeOut();
+
+    })
+    $("#owl-demo .item").click(function () {
+        $(".case_txt").find("h2").html($(this).find("h4").html());
+        $(".case_txt").find("p").html($(this).find("p").html());
+        $("#tc_big").attr("src", $(this).find("img").attr("src"))
+        $(".case_bgs").fadeIn();
+        $(".case_tc").fadeIn();
+        $(".case_tc").animate({
+            height: $(".case_tc").find("#tc_big").height() + $(".case_txt").height() + 50,
+            top: $("#owl-demo").offset().top
+        });
+
+
+    })
+</script>
+<!--弹窗end-->
+</body>
+</html>
