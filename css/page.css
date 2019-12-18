@@ -152,9 +152,23 @@ section{
 	padding: 40px;
 	border-radius: 10px;
 	background-color: #fff;
+	text-align: center;
 	-webkit-box-shadow:0 0 10px rgba(204,204,204, .5); 
     -moz-box-shadow:0 0 10px rgba(204, 204, 204, .5);  
     box-shadow:0 0 10px rgba(204, 204, 204, .5);
+}
+
+.box-right .box-right-mid h4{
+	margin: 0 0 30px 0;
+}
+
+.box-right .box-right-mid p{
+	text-align: left;
+}
+
+.box-right .box-right-mid img{
+	width: 80%;
+	margin: 20px auto;
 }
 
 .box-right .box-right-mid .box-text{
