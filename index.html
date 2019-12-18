@@ -404,7 +404,7 @@
                     敦明律所始终秉持专业、高效、精益求精的理念，提供高质量法律服务，塑造卓越品牌。
                 </p>
             </div>
-            <a href="1.html" class="i_about_more">查看更多</a>
+            <a href="team.html" class="i_about_more">查看更多</a>
         </div>
 
         <div class="c_l"></div>
@@ -435,9 +435,6 @@
                                         </div>
                                     </a>
                                 </li>
-
-
-
 
                                 <li>
                                     <a href="news-con.html">
@@ -521,20 +518,28 @@
     <footer>
         <div class="footer-box clearfix">
             <div class="footer-left">
-                <span class="globle"></span>
+                <ul>
+                    <li><a href="aboutus.html">关于我们</a></li>
+                </ul>
+                <ul>
+                    <li><a href="team.html">团队介绍</a></li>
+                </ul>
+                <ul>
+                    <li><a href="product.html">业务领域</a></li>
+                </ul>
+                <ul>
+                    <li><a href="culture.html">往期文章</a></li>
+                </ul>
+                <ul>
+                    <li><a href="job.html">求职招聘</a></li>
+                </ul>
+                <ul>
+                    <li><a href="contactus.html">联系我们</a></li>
+                </ul>
             </div>
             <div class="footer-right">
                 <div class="footer-laber">
-                    <ul>
-                        <li><a href="aboutus.html">关于我们</a></li>
-                        <li><a href="team.html">团队介绍</a></li>
-                        <li><a href="product.html">业务领域</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="culture.html">往期文章</a></li>
-                        <li><a href="job.html">求职招聘</a></li>
-                        <li><a href="contactus.html">联系我们</a></li>
-                    </ul>
+                    <img src="picture/weixin.jpg" width="120"/>
                     <ul>
                         <li class="footer-contact">邮箱:info@dunminglaw.com</li>
                         <li class="footer-contact">电话:0755-865688865</li>
@@ -555,43 +560,7 @@
 <a href="javascript:void(0)" class="gotop" onClick="goTop()"></a>
 <!--尾部end-->
 <script language="javascript" src="js/foot.js"></script>
-<!--弹窗begin-->
-<div class="case_bgs">&nbsp;</div>
-<div class="case_tc">
-    <div class="case_divs">
-        <img src="picture/close.png" class="closed"/>
-        <img src="picture/i_pro_img1.jpg" alt="" id="tc_big"/>
-        <div class="case_txt">
-            <h2>桥梁工程领域2</h2>
-            <p>
-                与比亚迪公司成功完成新能源汽车制造生产所需焊割设备的销售合同，提供TIG-315AC/DC、 Master-500DP焊接设备。<br/>
-                与比亚迪公司成功完成新能源汽车制造生产所需焊割设备的销售合同，提供TIG-315AC/DC、 Master-500DP焊接设备。
-            </p>
-        </div>
-    </div>
-</div>
-<script type="text/javascript">
-    $(".closed").click(function () {
-        $(".case_tc").animate({height: "0", top: "270px"});
-        $(".case_bgs").fadeOut();
-        $(".case_tc").fadeOut();
 
-    })
-    $("#owl-demo .item").click(function () {
-        $(".case_txt").find("h2").html($(this).find("h4").html());
-        $(".case_txt").find("p").html($(this).find("p").html());
-        $("#tc_big").attr("src", $(this).find("img").attr("src"))
-        $(".case_bgs").fadeIn();
-        $(".case_tc").fadeIn();
-        $(".case_tc").animate({
-            height: $(".case_tc").find("#tc_big").height() + $(".case_txt").height() + 50,
-            top: $("#owl-demo").offset().top
-        });
-
-
-    })
-</script>
-<!--弹窗end-->
     <script src="js/main.js"></script>
   </body>
 </html>

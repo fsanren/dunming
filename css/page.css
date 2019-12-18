@@ -269,9 +269,16 @@ section{
 
 .team-item img{
 	float: left;
-	width: 150px;
+	width: 200px;
 	height: 180px;
 	padding: 0 10px;
+}
+
+@media  screen  and (max-width: 970px) {
+    .team-item img{
+        width: 150px;
+        height: 160px;
+    }
 }
 
 #postDetail p, #postPreview p{

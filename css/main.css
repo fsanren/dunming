@@ -172,7 +172,6 @@ footer ul .footer-contact{
 }
 
 footer ul:last-child{
-  padding-top: 4px;
 }
 
 /*版权信息样式*/
@@ -318,6 +317,23 @@ header .header-container .nav-box .nav-mobile-menu span{
   .box{
     width: 90% !important;
   }
+  footer .footer-right{
+    margin-right: 0;
+    padding-right: 0;
+  }
+  footer .footer-left{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .footer-laber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-laber ul{
+    padding-left: 15px;
+  }
+
 }
 
 /*移动端banner兼容*/
@@ -359,4 +375,11 @@ header .header-container .nav-box .nav-mobile-menu span{
   .feature-text{
     width: 100% !important;
   }
-}  
+}
+
+@media  screen  and (min-width: 970px) {
+  .footer-laber img{
+    position: relative;
+    bottom: 20px;
+  }
+}
