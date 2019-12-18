@@ -2,6 +2,9 @@
 body{
   font-family: "Microsoft Yahei";
 }
+p,span{
+    font-size: 16px;
+}
 /*header头部样式*/
 header .header-container {
   width: 100%;
@@ -171,8 +174,6 @@ footer ul .footer-contact{
   color: #898989;
 }
 
-footer ul:last-child{
-}
 
 /*版权信息样式*/
 .copy{
@@ -265,6 +266,9 @@ header .header-container .nav-box .nav-mobile-menu span{
   background-color: rgba(0,0,0,0.3);
   z-index: 1000;
   display: none;
+}
+.footer-left .link-a span{
+  font-size: 14px;
 }
 
 .footer-left .link-a a{

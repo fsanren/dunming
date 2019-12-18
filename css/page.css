@@ -281,6 +281,12 @@ section{
     }
 }
 
+@media  screen  and (min-width: 740px) {
+	#postDetail button{
+		display: none;
+	}
+}
+
 #postDetail p, #postPreview p{
 	text-indent: 28px;
 }
