@@ -267,6 +267,16 @@ header .header-container .nav-box .nav-mobile-menu span{
   display: none;
 }
 
+.footer-left .link-a a{
+  color: #3c3a38;
+  border-right: 1px solid #3c3a38;
+  padding: 0 13px 0 10px;
+}
+
+.footer-left .link-a a:last-child{
+  border-right: none;
+}
+
 /*响应式媒体查询处理*/
 @media screen  and (max-width: 1200px) {
   #feature-last{
@@ -333,7 +343,9 @@ header .header-container .nav-box .nav-mobile-menu span{
   .footer-laber ul{
     padding-left: 15px;
   }
-
+  .footer-left .link-a {
+    display: none;
+  }
 }
 
 /*移动端banner兼容*/
@@ -382,4 +394,5 @@ header .header-container .nav-box .nav-mobile-menu span{
     position: relative;
     bottom: 20px;
   }
+
 }
