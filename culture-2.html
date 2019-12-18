@@ -144,7 +144,7 @@
               <span class="gswh"></span>
             </div>
             <hr> -->
-            <h3 style="font-size: 20px;color: #cc3b3f;font-weight: bold;margin-top: 10px">精选文章</h3>
+            <h3 style="font-size: 20px;color: #cc3b3f;font-weight: bold;margin-top: 10px">最新动态</h3>
             <hr>
 
           <div id="postItems">
@@ -219,10 +219,10 @@
         //加载文章post.js
         (function(){
             var postStr = ""
-            for (var i = 0; i < postArr.length; i++) {
+            for (var i = 0; i < newsArr.length; i++) {
                 postStr += "<div onclick='getPost("+(i+1)+")'><h4>"
-                    +postArr[i].title+"</h4> <p>"
-                    +postArr[i].content[0]+"</p></div>"
+                    +newsArr[i].title+"</h4> <p>"
+                    +newsArr[i].content[0]+"</p></div>"
             }
             $("#postItems").html(postStr)
         })();
@@ -233,12 +233,12 @@
           $("#postDetail").show()
 
           var contentStr = ""
-          for (var i = 0; i < postArr[index].content.length; i++) {
-              contentStr += "<p>" + postArr[index].content[i] + "</p>"
+          for (var i = 0; i < newsArr[index].content.length; i++) {
+              contentStr += "<p>" + newsArr[index].content[i] + "</p>"
           }
 
-          var htmlStr = "<h4 style='text-align: center'>" + postArr[index].title + "</h4>"
-              + "<h6 style='text-align: center'><span style='margin: 0 10px'>投稿：" + postArr[index].author + "</span><span style='margin: 0 10px'>日期：" + postArr[index].date + "</span></h6>"
+          var htmlStr = "<h4 style='text-align: center'>" + newsArr[index].title + "</h4>"
+              + "<h6 style='text-align: center'><span style='margin: 0 10px'>投稿：" + newsArr[index].author + "</span><span style='margin: 0 10px'>日期：" + newsArr[index].date + "</span></h6>"
               + contentStr
               + "<button class='btn btn-warning' onclick='window.location.reload()'>返回</button>"
           $("#postDetail").html(htmlStr)

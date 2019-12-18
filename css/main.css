@@ -62,6 +62,8 @@ header .header-container .nav-box .nav-mid .navbar-nav li {
   height: 70px;
   text-align: center;
   list-style: none;
+  box-sizing: content-box;
+  padding-bottom: 20px;
 }
 header .header-container .nav-box .nav-mid .navbar-nav li a {
   min-width: 20px;
