@@ -47,12 +47,12 @@ em, cite, th { font-style: normal; font-weight: normal; font-style:normal;}
 .nav li h3 a:after{content: "";display: block;position: absolute;left: 50%;right: 50%; margin-left:5px; margin-right:5px;bottom: -1px;height:4px;opacity: 0;background-color: #c30d23;-webkit-transition: all .5s;
 -o-transition: all .5s;-ms-transition: all .5s;transition: all .5s;}
 .nav li h3 a:hover:after{left: 1%;right: 1%;opacity: 1;-webkit-transition: all .5s;-o-transition: all .5s;-ms-transition: all .5s;transition: all .5s;}*/
-.nav .sub{ display:none; /*默认隐藏*/ width:220px;  padding:0;   position:fixed; top:89px; background:#fff; z-index:110;}
+.nav .sub{ display:none; /*默认隐藏*/ width:160px;  padding:0;   position:fixed; top:89px; background:#fff; z-index:110;}
 .nav-hide .nav .sub{ top:102px;}
-.nav .sub dl{ text-align:center; float:right; width:220px;}
+.nav .sub dl{ text-align:center; float:right; width:160px;}
 .nav #m4 .sub dl{ width:560px;}
 .nav #m5 .sub dl{ width:440px;}
-.nav .sub dd{ color:#fff; vertical-align:middle; list-style:none; text-decoration:none; margin-right:6%;}
+.nav .sub dd{ color:#fff; vertical-align:middle; list-style:none; text-decoration:none; margin-right:6%;overflow: hidden;white-space: nowrap;}
 .nav .sub dd a{ height:74px; line-height:74px; display:block; color:#37230a;font-size:16px;}
 .nav .sub dd a:hover{ color:#ccc;}
 .blank_h{ height:117px; overflow:hidden;}
